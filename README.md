@@ -1,18 +1,22 @@
 Objective
 
+
 Work with REST APIs, understand asynchronous programming, and build interactive web pages using JavaScript.
 
 Prerequisites
 
+
 Fork and clone the boilerplate repository.
 
 Install dependencies:
+
 
 npm install
 npm run start
 json-server db.json -s ./public
 
 Coding Guidelines
+
 
 HTML code in public/index.html
 JavaScript code in public/js
@@ -23,11 +27,13 @@ Code should be well-indented and commented
 
 Requirements
 
+
 Populate products in db.json, leave saveforlater empty.
 Create "Products" and "Save for Later" sections in HTML.
 Use Fetch API and Promises for all HTTP calls.
 
 Instructions
+
 
 getProducts(): Fetch products, populate <ul id="products">, return JSON promise.
 getsaveforlater(): Fetch saveforlater, populate <ul id="saveforlaterList">, return JSON promise.
@@ -35,10 +41,12 @@ addsaveforlater(): Handle "Add to saveforlater" button, post to db.json, return 
 
 HTML Structure
 
+
 Products list: <ul id="products">
 Save for Later list: <ul id="saveforlater">
 Invoke getProducts() and getsaveforlater()
 
 Deleting Items
+
 
 Use Deletesaveforlater(id) to delete items from Save for Later list.
